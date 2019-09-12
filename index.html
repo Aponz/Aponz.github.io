@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <!-- Icon-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- My Css -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Company</title>
+</head>
+
+<!-- Navbar-->
+
+<body class="scrollspy" id="home">
+    <div class="navbar-fixed">
+        <nav class="teal darken-3">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="#home" class="brand-logo"> A P O N</a>
+                    <a href="#home" data-target="mobile-nav" class="sidenav-trigger"><i
+                            class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <ul class="right hide-on-med-and-down">
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#clients">Clients</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#portfolio">Portfofolio</a></li>
+                            <li><a href="#contact">Contact Us</a></li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+    <!-- Side Bar kalo jadi mobile, id harus sama dengan yg di <a> -->
+    <ul class="sidenav" id="mobile-nav">
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#clients">Clients</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfofolio</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+    </ul>
+
+    <!-- Slider-->
+    <div class="slider">
+        <ul class="slides">
+            <li>
+                <img src="img/slider/1.png">
+                <div class="caption left-align">
+                    <h3>This is our big Tagline!</h3>
+                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                </div>
+            </li>
+            <li>
+                <img src="img/slider/2.png">
+                <div class="caption right-align">
+                    <h3>This is our big Tagline!</h3>
+                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                </div>
+            </li>
+            <li>
+                <img src="img/slider/3.png">
+                <div class="caption center-align">
+                    <h3>This is our big Tagline!</h3>
+                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <!-- About -->
+    <section class="about scrollspy" id="about">
+        <div class="container">
+            <div class="row">
+                <h3 class="center light grey-text text-darken-2">About Us</h3>
+                <div class="col m6 light ">
+                    <h5>We Are Professionals</h5>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum veniam nesciunt autem ipsa sequi
+                        sint saepe natus hic, fuga neque fugiat, cumque officiis quaerat recusandae placeat beatae nihil
+                        sed facere!</p>
+                </div>
+                <div class="col m6 s10 light">
+                    <p>WEB DEVELOPMENT</p>
+                    <div class="progress">
+                        <div class="determinate teal" style="width: 90%"></div>
+                    </div>
+                    <p>GAME DEVELOPMENT</p>
+                    <div class="progress">
+                        <div class="determinate teal" style="width: 80%"></div>
+                    </div>
+                    <p>APP MOBILE DEVELOPMENT</p>
+                    <div class="progress">
+                        <div class="determinate teal" style="width: 85%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Our Clients -->
+    <div class="parallax-container scrollspy" id="clients">
+        <div class="parallax"><img src="img/slider/4.png">
+        </div>
+        <div class="container clients">
+            <h3 class="center light white-text">Our Clients</h3>
+            <div class="row">
+                <div class="col m4 s12 center clients ">
+                    <a href="https://www.traveloka.com">
+                        <img src="img/clients/traveloka.png">
+                    </a>
+                </div>
+                <div class="col m4 s12 center ">
+                    <a href="https://www.gojek.com">
+                        <img src="img/clients/gojek.png">
+                    </a>
+                </div>
+                <div class="col m4 s12 center">
+                    <a href="https://www.tokopedia.com">
+                        <img src="img/clients/tokopedia.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Our Services -->
+    <section id="services" class="services grey lighten-3 scrollspy">
+        <div class="container">
+            <div class="row">
+                <h3 class="light center grey-text text-darken-2 test">Our Services</h3>
+                <div class="col m4 s12">
+                    <div class="card-panel center">
+                        <i class="material-icons medium">desktop_windows</i>
+                        <h5>Web Development</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi fugit sed at odio nesciunt
+                            voluptate.</p>
+                    </div>
+                </div>
+                <div class="col m4 s12">
+                    <div class="card-panel center">
+                        <i class="material-icons medium">android</i>
+                        <h5>Mobile App</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi fugit sed at odio nesciunt
+                            voluptate.</p>
+                    </div>
+                </div>
+                <div class="col m4 s12">
+                    <div class="card-panel center">
+                        <i class="material-icons medium">games</i>
+                        <h5>Game Development</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi fugit sed at odio nesciunt
+                            voluptate.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section class="protfolio scrollspy" id="portfolio">
+        <div class="container">
+            <h3 class="light grey-text text-darken-2 center test">Portfolio</h3>
+            <div class="row">
+                <div class="col m3 s12">
+                    <img src="img/portfolio/1.png" class="responsive-img  materialboxed">
+                </div>
+                <div class="col m3 s12">
+                    <img src="img/portfolio/2.png" class="responsive-img materialboxed">
+                </div>
+                <div class="col m3 s12">
+                    <img src="img/portfolio/3.png" class="responsive-img materialboxed">
+                </div>
+                <div class="col m3 s12">
+                    <img src="img/portfolio/4.png" class="responsive-img materialboxed">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col m3 s12">
+                    <img src="img/portfolio/5.png" class="responsive-img  materialboxed">
+                </div>
+                <div class="col m3 s12">
+                    <img src="img/portfolio/6.png" class="responsive-img materialboxed">
+                </div>
+                <div class="col m3 s12">
+                    <img src="img/portfolio/1.png" class="responsive-img materialboxed">
+                </div>
+                <div class="col m3 s12">
+                    <img src="img/portfolio/2.png" class="responsive-img materialboxed">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us -->
+    <section class="contact grey lighten-3 scrollspy" id="contact">
+        <div class="container ">
+            <h3 class="center grey-text light test text-darken-2">Contact Us</h3>
+            <div class="row">
+                <div class="col m5 s12">
+                    <div class="card-panel teal darken-3 center white-text">
+                        <i class="material-icons">mail_outline</i>
+                        <h5>Contact</h5>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, provident.</p>
+                    </div>
+                    <ul class="collection with-header ">
+                        <li class="collection-header">
+                            <h4>Our Office</h4>
+                        </li>
+                        <li class="collection-item">32 Cendana X Street, Taman Royal 3</li>
+                        <li class="collection-item">Tangerang</li>
+                        <li class="collection-item">Banten, Indonesia</li>
+
+                    </ul>
+                </div>
+                <form class="col m7 s12">
+                    <div class="card-panel">
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <input id="name" type="text" class="validate" autocomplete="off" required>
+                                <label for="name">Name</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <input id="number" type="tel" class="validate" autocomplete="off">
+                                <label for="number">Phone Number</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <input id="email" type="email" class="validate" autocomplete="off" required>
+                                <label for="email">Email</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <form class="col s12">
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <textarea id="textarea1" class="materialize-textarea"></textarea>
+                                        <label for="textarea1">Textarea</label>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                            <i class="material-icons right">send</i>
+                        </button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="teal darken-3 white-text">
+        <p class="center flow-text">Created by <a href="https://twitter.com/arfn_apon">A P O N.</a> Copyright 2019.</p>
+    </footer>
+
+
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+        const sideNav = document.querySelectorAll('.sidenav');
+        // javascript tolong dong cariin yang nama selectornya class sidenav
+        M.Sidenav.init(sideNav);
+        // Materialize jalankan fitur Sidenav elemennya sideNav
+
+        const slider = document.querySelectorAll('.slider');
+        M.Slider.init(slider, {
+            indicators: false,
+            height: 500,
+            duration: 600,
+            interval: 4000
+        });
+
+        const parralax = document.querySelectorAll('.parallax');
+        M.Parallax.init(parralax);
+
+        const materialBox = document.querySelectorAll('.materialboxed');
+        M.Materialbox.init(materialBox);
+
+        const scrollSpy = document.querySelectorAll('.scrollspy');
+        M.ScrollSpy.init(scrollSpy, {
+            scrollOffset: 50
+        });
+    </script>
+</body>
+
+</html>
